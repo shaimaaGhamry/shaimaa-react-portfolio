@@ -38,7 +38,7 @@ export default function ContactMe(){
     }
 
     function handleMessageBlur(){
-        message.length == 0
+        message.length === 0
         ? setValidMessage(false)
         : setValidMessage(true)
     }
