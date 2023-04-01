@@ -2,13 +2,13 @@ import React, { useState } from "react";
 
 export default function ContactMe(){
     const [name, setName] = useState("");
-    const [validName, setvalidName] = useState(false);
+    const [validName, setvalidName] = useState(true);
 
     const [email, setEmail] = useState("");
-    const [validEmail, setValidEmail] = useState(false);
+    const [validEmail, setValidEmail] = useState(true);
 
     const [message, setMessage] = useState("");
-    const [validMessage, setValidMessage] = useState(false);
+    const [validMessage, setValidMessage] = useState(true);
     
     function handleNameChange(e){
         setName(e.target.value);        

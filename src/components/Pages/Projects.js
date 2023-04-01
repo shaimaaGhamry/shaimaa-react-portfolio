@@ -9,7 +9,7 @@ import Project from "./Project";
 
 
 
-export default function Portfolio(){
+export default function Projects(){
     return(
         <div classNameName="allProjectsCard"> 
           <header>My Projects</header>

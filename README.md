@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# REACT Portfolio
+This is a portfolio application built with React, designed to showcase my projects, skills, and experience. The application consists of a single-page website that includes the following sections:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* About Me: A brief introduction about myself, including a profile picture, background, and interests.
 
-## Available Scripts
+* Portfolio: A list of my projects, each with a thumbnail image, title, description, and link to the live website or source code.
 
-In the project directory, you can run:
+* Resume: A list of my technical skills, such as programming languages, frameworks, tools, and methodologies.
 
-### `npm start`
+* Contact: A contact form where visitors can send me a message or connect with me on social media.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application is built with modern web development technologies, including:
 
-### `npm test`
+* React: A popular JavaScript library for building user interfaces.
+* Bootstrap: A front-end framework for building responsive and mobile-first web applications.
+* GitHub Pages: A free static site hosting service provided by GitHub.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 
+#
+# Deployed URL
 
-### `npm run build`
+#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Table of Contents:
+* [Installation](#installation)
+* [Deployment](#deployment)
+* [Usage](#usage)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#
+# Installation 
+To run the application locally, you need to have Node.js and npm installed on your machine. Then, you can follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Clone the repository to your local machine.
+* Navigate to the project directory in your terminal or command prompt.
+* Run npm install to install the dependencies.
+* Run npm start to start the development server.
+* Open your web browser and go to http://localhost:3000 to view the application.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can modify the source code to add your own projects, skills, and information by editing the appropriate files in the src directory. The application uses a modular architecture, where each section is implemented as a React component.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Deployment
+To deploy the application to the web, you can use the following steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Create a new repository on GitHub, and push your changes to the main branch.
+* Enable GitHub Pages in the repository settings, and choose the gh-pages branch as the source.
+* Wait for a few minutes for the website to be published to https://ShaimaaGhamry.github.io/shaimaa-react-portfolio/.
 
-## Learn More
+#
+# Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* WHEN I load the portfolio the first time
+THEN I am presented with a page containing a header, a section for content, and a footer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The About Me title and section are selected by default
 
-### Code Splitting
+![screenshot](./src/screenshots/Screenshot%202023-04-01%20044843.png)
+#
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* WHEN I am presented with the Portfolio section
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
 
-### Analyzing the Bundle Size
+![screenshot](./src/screenshots/Screenshot%202023-04-01%20142555.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#
+#
 
-### Making a Progressive Web App
+* WHEN I am presented with the Contact section
+THEN I see a contact form with fields for a name, an email address, and a message
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![screenshot](./src/screenshots/Screenshot%202023-04-01%20142759.png)
+#
+#
 
-### Advanced Configuration
+* WHEN I am presented with the Resume section
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+![screenshot](./src/screenshots/Screenshot%202023-04-01%20142956.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
