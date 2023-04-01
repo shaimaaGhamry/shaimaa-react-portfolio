@@ -7,6 +7,52 @@
   pointer-events: none;
 }
 
+.allProjectsCard {
+  display: flex;
+  flex-direction: column;
+
+  padding: var(--padding);  
+  margin: var(--margin);
+
+  border-style: outset;
+  border-width: 5px;
+}
+
+.projects_container {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+  align-items: center;
+  padding: var(--padding);  
+  margin: var(--margin);
+
+}
+
+.project_card {
+
+  flex: 0 0 200px;
+
+  padding: var(--padding);  
+  margin: var(--margin);
+
+  border-style: outset;
+  border-width: 5px;
+  border-radius: var(--border_radius);
+}
+
+.project_card img {
+  width: 100%;
+  height: auto;
+}
+
+.project_card:hover {
+
+  flex: 0 0 350px;
+
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
