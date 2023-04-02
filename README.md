@@ -19,7 +19,7 @@ The application is built with modern web development technologies, including:
 # 
 #
 # Deployed URL
-
+https://shaimaaghamry.github.io/shaimaa-react-portfolio/
 #
 
 # Table of Contents:
